@@ -30,3 +30,4 @@ scrape_configs:
   metrics_path: /actuator/prometheus
   static_configs:
   - targets: ['vets-service:8083']
+  #- targets: ['vets-service:8083']
