@@ -5,3 +5,4 @@ AWS_REGION="us-east-1"
 cd infrastructure/qa-k8s-terraform
 terraform init
 terraform apply -auto-approve
+#terraform apply -auto-approve
