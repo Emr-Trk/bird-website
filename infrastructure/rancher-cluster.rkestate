@@ -714,7 +714,7 @@
         "keyEnvName": "KUBE_SERVICE_ACCOUNT_TOKEN_KEY",
         "keyPath": "/etc/kubernetes/ssl/kube-service-account-token-key.pem",
         "configEnvName": "",
-        "configPath": ""
+        "configPath": "
       }
     }
   }
