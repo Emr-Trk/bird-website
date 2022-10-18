@@ -22,4 +22,4 @@ ssh_key_path: ~/.ssh/call-rancher.pem
 ingress:
   provider: nginx
   options:
-    
+    use-forwarded-headers: "true"
