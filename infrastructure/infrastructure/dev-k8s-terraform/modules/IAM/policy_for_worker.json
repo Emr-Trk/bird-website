@@ -127,7 +127,7 @@
         "Resource": "*",
         "Condition": {
           "StringLike": {
-            "ec2:ResourceTag/ebs.csi.aws.com/cluster": "false
+            "ec2:ResourceTag/ebs.csi.aws.com/cluster": "true"
           }
         }
       }
