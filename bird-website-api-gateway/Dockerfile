@@ -7,5 +7,6 @@ RUN tar -xzf dockerize.tar.gz
 RUN chmod +x dockerize
 ADD ./target/*.jar /app.jar
 EXPOSE ${EXPOSED_PORT}
+#EXPOSE ${EXPOSED_PORT}
 
 
