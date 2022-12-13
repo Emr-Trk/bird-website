@@ -201,7 +201,7 @@ output worker-1-ip {
 output worker-2-ip {
   value       = aws_instance.worker-2.public_ip
   sensitive   = false
-  #description = "public ip of the worker-2"
+  description = "public ip of the worker-2"
 }
 
 
