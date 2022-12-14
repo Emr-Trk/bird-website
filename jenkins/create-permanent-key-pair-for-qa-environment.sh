@@ -6,4 +6,4 @@ aws ec2 create-key-pair --region ${AWS_REGION} --key-name ${ANS_KEYPAIR} --query
 chmod 400 ${ANS_KEYPAIR}
 mkdir -p ${JENKINS_HOME}/.ssh
 mv ${ANS_KEYPAIR} ${JENKINS_HOME}/.ssh/${ANS_KEYPAIR}
-ls -al ${JENKINS_HOME}/.ssh
+#ls -al ${JENKINS_HOME}/.ssh
