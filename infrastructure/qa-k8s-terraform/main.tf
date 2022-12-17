@@ -203,5 +203,6 @@ output worker-2-ip {
   sensitive   = false
   description = "public ip of the worker-2"
 }
+lk;l;
 
 
