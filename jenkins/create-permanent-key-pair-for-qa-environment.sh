@@ -7,4 +7,3 @@ chmod 400 ${ANS_KEYPAIR}
 mkdir -p ${JENKINS_HOME}/.ssh
 mv ${ANS_KEYPAIR} ${JENKINS_HOME}/.ssh/${ANS_KEYPAIR}
 ls -al ${JENKINS_HOME}/.ssh
-#ls -al ${JENKINS_HOME}/.ssh
