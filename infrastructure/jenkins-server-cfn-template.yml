@@ -132,4 +132,4 @@ Outputs:
     Value: !Sub 
       - http://${PublicAddress}:8080
       - PublicAddress: !GetAtt JenkinsServer.PublicDnsName
-      #- PublicAddress: !GetAtt JenkinsServer.PublicDnsName
+    
