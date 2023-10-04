@@ -1,4 +1,4 @@
-echo 'Deploying App on Kubernetes'
+//echo 'Deploying App on Kubernetes'
 envsubst < k8s/petclinic_chart/values-template.yaml > k8s/petclinic_chart/values.yaml
 sed -i s/HELM_VERSION/${BUILD_NUMBER}/ k8s/petclinic_chart/Chart.yaml
 AWS_REGION=$AWS_REGION helm repo add stable-petclinic s3://petclinic-helm-charts-hakan/stable/myapp/ || echo "repository name already exists"
